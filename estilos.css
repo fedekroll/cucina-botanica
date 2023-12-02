@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.portada-libro {
+  width: 100%;
+}
+
+h1 {
+  font-size: 0;
+  background-image: url(imagenes/logo.svg);
+  width: 300px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+header {
+  background-color: #dbd9c6;
+}
+
+.contenedor-navbar {
+  flex-direction: row-reverse;
+}
+
+.titulo-seccion {
+  font-size: 3rem;
+  margin: 10px auto;
+  color: #64674e;
+  font-family: "Noto Serif Bengali", serif;
+  text-align: center;
+}
+
+#sobre-mi div ul li {
+  list-style: none;
+}
+
+#sobre-mi div picture img {
+  border-radius: 10px;
+}
+
+#libros a {
+  background-color: #64674e;
+  border: none;
+}
+
+#libros a:hover {
+  background-color: #c9a075;
+}
+
+#curso p {
+  width: 90%;
+  margin: 10px auto;
+  font-size: 16px;
+}
+
+#curso a input:hover,
+.comprar-button:hover {
+  background-color: #dbd9c6;
+  cursor: pointer;
+  color: #64674e;
+}
+
+.social-media a:hover img {
+  transform: scale(1.1);
+}
+
+#iframe-contenedor iframe {
+  width: 94vw;
+  height: calc(98vw * 315 / 560);
+  margin: auto;
+}
+
+#curso a input,
+form button {
+  width: 250px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #64674e;
+  color: #dbd9c6;
+  text-transform: uppercase;
+  font-size: 1rem;
+  box-shadow: 3px 6px 10px 0px #37373790;
+  margin-top: 40px;
+}
+
+footer {
+  width: 100%;
+  background-color: #dbd9c6;
+  margin-top: 30px;
+  color: #64674e;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  color: #64674e;
+}
+
+footer a:hover {
+  color: #c9a075;
+}
+
+@media screen and (max-width: 991px) {
+  h1 {
+    background-image: url(imagenes/logo-mobile.png);
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #sobre-mi div {
+    flex-direction: column !important;
+  }
+
+  .imagen-sobre-mi {
+    width: 100%;
+  }
+
+  #contacto {
+    width: 90%;
+    margin: auto;
+  }
+}

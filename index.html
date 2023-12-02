@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      De Nicola Ines, Kroll Federico, Diseño Multimedial DMT2AV, Virtual, Turno
+      Tarde 2023
+    </title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg justify-content-around">
+        <div class="container-fluid contenedor-navbar">
+          <h1 id="logo">Cucina botanica</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre-mi">SOBRE MI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#libros">LIBROS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#curso">CURSO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="inicio" class="container-fluid p-0 mt-5">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <figure>
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="imagenes/banner-mobile.jpg"
+                />
+                <img
+                  src="imagenes/banner-desktop.jpg"
+                  class="d-block w-100"
+                  alt="carlota perego"
+                />
+              </picture>
+            </figure>
+          </div>
+          <div class="carousel-item">
+            <figure>
+              <picture>
+                <source
+                  media="(max-width: 768px)"
+                  srcset="imagenes/secondary-banner-mobile.jpg"
+                />
+                <img
+                  src="imagenes/secondary-banner.jpg"
+                  class="d-block w-100"
+                  alt="carlota perego"
+                />
+              </picture>
+            </figure>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section
+      id="sobre-mi"
+      class="container-fluid p-0 d-flex flex-column justify-content-center"
+    >
+      <h2 class="titulo-seccion col-10 text-center mt-4">Sobre mi</h2>
+      <div class="d-flex flex-row mt-4 justify-content-around">
+        <figure>
+          <picture class="col-md-5 col-sm-12">
+            <source
+              media="(max-width: 768px)"
+              srcset="imagenes/carlotta-cesta-verduras-mobile.jpg"
+            />
+            <img
+              class="imagen-sobre-mi"
+              src="imagenes/carlotta-cesta-verduras.jpg"
+              alt="imagen de carlotta con una cesta de verduras"
+            />
+          </picture>
+        </figure>
+        <ul class="col-md-5 col-sm-12 p-0 mt-3">
+          <li>
+            <p>
+              Me llamo <strong>Carlotta Perego</strong> y en el 2018 fundé
+              Cucina Botanica. Siempre me ha encantado la cocina y las plantas,
+              y desde el principio de este proyecto quise crear y compartir
+              recetas sencillas, basadas en plantas, para ayudar a quienes me
+              rodean a cocinar platos más sanos, pero a la vez sabrosos y con un
+              aspecto muy apetecible.
+            </p>
+          </li>
+          <li>
+            <p>
+              Con Cucina Botanica ayudo a descubrir el mundo de la cocina
+              vegetal: en este sitio encontrarás explicaciones sencillas sobre
+              nutrición, vídeos informativos y recetas deliciosas, creadas con
+              ingredientes saludables y naturales.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex flex-row-reverse mt-4 justify-content-around">
+        <figure>
+          <picture class="col-md-5 col-sm-12">
+            <source
+              media="(max-width: 768px)"
+              srcset="imagenes/carlotta-tram-mobile.jpg"
+            />
+            <img
+              class="imagen-sobre-mi"
+              src="imagenes/carlotta-tram.jpg"
+              alt="Carlotta junto a una imagen suya en el tram"
+            />
+          </picture>
+        </figure>
+        <ul class="col-md-5 col-sm-12 p-0 mt-3">
+          <li>
+            <p>
+              En el pasado trabajé en el mundo de la moda y estaba bastante
+              infeliz y estresada. Pero al mismo tiempo tenía mucho miedo de
+              cambiar de rumbo, como suele suceder.
+            </p>
+          </li>
+          <li>
+            <p>
+              Un día, después de una gran inyección de coraje, decidí volar a
+              Los Ángeles, donde estudié cocina y nutrición basada en plantas.
+              Luego trabajé como asistente para Plantlab, una escuela de cocina
+              basada en plantas y finalmente me convertí en profesora de cocina
+              basada en plantas.
+            </p>
+          </li>
+          <li>
+            <p>
+              Una vez de regreso en mi país, decidí traer lo que aprendí: la
+              cocina vegana no es ni triste ni desafortunada. Es un mundo
+              maravilloso e intrigante como la naturaleza, todo aún por
+              descubrir.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex flex-row mt-4 justify-content-around">
+        <figure>
+          <picture class="col-md-5 col-sm-12">
+            <source
+              media="(max-width: 768px)"
+              srcset="imagenes/carlotta-cocinando-mobile.jpg"
+            />
+            <img
+              class="imagen-sobre-mi"
+              src="imagenes/carlotta-cocinando.jpg"
+              alt="Carlotta Perego cocinando"
+            />
+          </picture>
+        </figure>
+        <ul class="col-md-5 col-sm-12 p-0 mt-3">
+          <li>
+            <p>
+              Siempre pienso y digo que la limitación es en realidad una gran
+              ventaja creativa: nos lleva a ir más allá, a seguir caminos
+              diferentes y nuevos. Por eso creé Cucina Botanica, un proyecto
+              para ayudar a las personas a vivir más sanamente y buscar sabores
+              fantásticos con ingredientes naturales.
+            </p>
+          </li>
+          <li>
+            <p>
+              En estos tres últimso años la comunidad ha crecido intensamente y
+              llegaron grandes reconocimientos muy satisfactorios. También tuve
+              la oportunidad de dar a conocer mi cocina a través de los 250.000
+              libros firmados "Cucina Botanica".
+            </p>
+          </li>
+          <li>
+            <p>
+              Gracias a todos estos eventos, el equipo de Cucina Botanica
+              también ha crecido: hoy comparto esta pasión (¡y misión!) con mi
+              pareja Simón.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="libros" class="container text-center mb-5">
+      <h2 class="titulo-seccion display-4 my-5">Libros</h2>
+
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3 mt-3">
+          <div class="card">
+            <img
+              src="./imagenes/vegetale-insieme-desk-gr.jpg"
+              class="card-img-top"
+              alt="libro carlota vegetale insieme"
+            />
+            <article class="card-body">
+              <h5 class="card-title">Vegetale Insieme</h5>
+              <p class="card-text">Best seller, el ABC de la cocina.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </article>
+          </div>
+        </div>
+        <!--fin col-->
+
+        <div class="col-12 col-md-6 col-lg-3 mt-3">
+          <div class="card">
+            <img
+              src="./imagenes/cucina-botanica-desk-gr.jpg"
+              class="card-img-top"
+              alt="libro cucina botanica"
+            />
+            <article class="card-body">
+              <h5 class="card-title">Cucina Botanica</h5>
+              <p class="card-text">Técnicas de cocina avanzadas.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </article>
+          </div>
+        </div>
+        <!--fin col-->
+
+        <div class="col-12 col-md-6 col-lg-3 mt-3">
+          <div class="card">
+            <img
+              src="./imagenes/vegetale-facile-desk-gr.jpg"
+              class="card-img-top"
+              alt="libro vegetale facile"
+            />
+            <article class="card-body">
+              <h5 class="card-title">Vegetale Facile</h5>
+              <p class="card-text">Cocina descontracturada.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </article>
+          </div>
+        </div>
+        <!--fin col-->
+
+        <div class="col-12 col-md-6 col-lg-3 mt-3">
+          <div class="card">
+            <img
+              src="./imagenes/trilogy-desk-gr.png"
+              class="card-img-top"
+              alt="libro trilogy"
+            />
+            <article class="card-body">
+              <h5 class="card-title">Trilogy</h5>
+              <p class="card-text">Colección completa.</p>
+              <a href="#" class="btn btn-primary">Ver más</a>
+            </article>
+          </div>
+        </div>
+        <!--fin col-->
+      </div>
+    </section>
+
+    <section
+      id="curso"
+      class="container-fluid p-0 d-flex flex-column justify-content-center align-items-center"
+    >
+      <h2 class="titulo-seccion col-10 text-center mt-4">Curso</h2>
+      <p>
+        El principal objetivo de Cucina Botanica siempre ha sido difundir la
+        cocina vegetal en Italia. En estos cuatro años hemos publicado una
+        enorme cantidad de contenidos, sin embargo la pregunta que nos han hecho
+        varias veces ha sido: "¿Cuándo tomarás una clase de cocina?"
+      </p>
+      <p>
+        Durante mucho tiempo reflexionamos sobre la forma que darle a este
+        curso: no queríamos que fuera una lista más de recetas, aunque fuera
+        inédita. Queríam os que fuera mucho más.
+      </p>
+      <p>
+        Queríamos que fuera un curso capaz de dejar lecciones de largo plazo en
+        quienes lo vean. Un curso que enseñó autonomía en la cocina.
+      </p>
+      <figure id="iframe-contenedor" class="container-fluid">
+        <iframe
+          class="curso-video"
+          src="https://www.youtube.com/embed/tvPoW20X1yU?si=a1WIu0v-B2AxidhK&amp;controls=0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        >
+        </iframe>
+      </figure>
+      <p>
+        Hemos incluido en 30 lecciones todas las nociones y técnicas más
+        importantes que, a su vez, hemos aprendido a lo largo de años de
+        trabajo. También hemos creado 30 archivos PDF, para un total de 150
+        páginas, con todas las lecciones, pasos y nociones más importantes por
+        escrito. Puedes descargarlos y conservarlos para siempre.
+      </p>
+      <a href="mailto:carlotta.perego@cucinabotanica.com" target="_blank">
+        <input type="button" value="quiero inscribirme" />
+      </a>
+    </section>
+    <section id="contacto" class="container-fluid p-0 row">
+      <h3 class="titulo-seccion mt-5 col-10">Contacto</h3>
+      <form
+        action="enviar.php"
+        method="post"
+        class="offset-lg-1 col-lg-5 offset-md-1 col-md-10 offset-sm-1 col-sm-10"
+      >
+        <div>
+          <label for="formGroupExampleInput" class="form-label"
+            >Nombre y apellido</label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="formGroupExampleInput"
+            placeholder="Nombre y apellido"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Mail</label>
+          <input
+            type="email"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Mail"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Celular</label>
+          <input
+            type="phone"
+            class="form-control"
+            id="formGroupExampleInput2"
+            placeholder="Celular"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label"
+            >Comentarios</label
+          >
+          <textarea
+            name="comentarios"
+            class="form-control"
+            cols="30"
+            rows="10"
+            placeholder="Comentarios"
+          ></textarea>
+        </div>
+        <button class="offset-3 col-6 mb-3" type="submit">Enviar</button>
+      </form>
+      <div
+        class="mt-2 offset-lg-1 col-lg-5 offset-md-1 col-md-10 offset-sm-1 col-sm-10"
+      >
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016716331392!2d-58.38644131645555!3d-34.603738803218775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sit!4v1701421914255!5m2!1ses-419!2sit"
+          width="100%"
+          height="70%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <address class="mt-2">
+          Av. 9 de Julio y Corrientes, C1043 CABA, Argentina
+        </address>
+      </div>
+    </section>
+
+    <footer class="container-fluid py-5 text-center">
+      <div class="row w-75 mx-auto d-flex align-items-center">
+        <div class="col-12 col-md-4">
+          <figure>
+            <img src="./imagenes/logo.svg" alt="logo cucina botanica" />
+          </figure>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <p class="fs-5">Trabajo Práctico 2</p>
+          <ul class="p-0 fs-6">
+            <li>Federico Kroll</li>
+            <li>Ines de Nicola</li>
+            <li>DMT2AV</li>
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-4">
+          <ul class="d-flex justify-content-center p-0">
+            <li class="p-3 fs-3">
+              <a href="https://www.tiktok.com/" target="_blank"
+                ><i class="bi bi-tiktok"></i
+              ></a>
+            </li>
+
+            <li class="p-3 fs-3">
+              <a href="https://twitter.com/home" target="_blank"
+                ><i class="bi bi-twitter-x"></i
+              ></a>
+            </li>
+
+            <li class="p-3 fs-3">
+              <a href="https://web.whatsapp.com/" target="_blank"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row w-75 mx-auto">
+        <hr class="py-1" />
+        <div class="col">
+          <p>&copy; Maquetado y Desarrollo Web - Da Vinci 2023</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
